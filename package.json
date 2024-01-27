@@ -3,10 +3,23 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "start": "nx serve",
+    "build": "nx build",
+    "watch": "nx build --watch --configuration development",
+    "test": "nx test --interactive",
+    "new": "nx new --interactive",
+    "generate component": "nx generate component --interactive",
+    "generate directive": "nx generate directive --interactive",
+    "generate service": "nx generate service --interactive",
+    "generate class": "nx generate class --interactive",
+    "generate interface": "nx generate interface --interactive",
+    "generate module": "nx generate module --interactive",
+    "e2e": "nx e2e",
+    "lint": "nx lint",
+    "update": "nx update --interactive",
+    "add": "nx add --interactive",
+    "xi18n": "nx xi18n",
+    "version": "nx version"
   },
   "private": true,
   "dependencies": {
@@ -24,8 +37,13 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.1.1",
+    "@angular-devkit/core": "^17.1.1",
+    "@angular-devkit/schematics": "^17.1.1",
     "@angular/cli": "^17.1.1",
     "@angular/compiler-cli": "^17.1.0",
+    "@nx/angular": "17.2.8",
+    "@nx/workspace": "17.2.8",
+    "@schematics/angular": "^17.1.1",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
@@ -33,6 +51,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "nx": "17.2.8",
     "typescript": "~5.3.2"
   }
 }

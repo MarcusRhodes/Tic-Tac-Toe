@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run Tic-Tac-Toe:generate component",
+    "startTime": "2024-01-27T04:57:05.573Z",
+    "endTime": "2024-01-27T04:57:05.837Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "Tic-Tac-Toe:generate component",
+      "target": "generate component",
+      "projectName": "Tic-Tac-Toe",
+      "hash": "1505343561225561526",
+      "startTime": "2024-01-27T04:57:05.576Z",
+      "endTime": "2024-01-27T04:57:05.836Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

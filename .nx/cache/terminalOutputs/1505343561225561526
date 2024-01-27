@@ -1,0 +1,6 @@
+npm ERR! Missing script: "generate"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: /home/marcus/.npm/_logs/2024-01-27T04_57_05_771Z-debug-0.log
